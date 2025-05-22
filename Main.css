@@ -1,0 +1,41 @@
+.specials-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.specials-container h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #fcef06;
+}
+.price{
+  color: rgb(240, 115, 6);
+}
+.specials-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.special-card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  width: 250px;
+  text-align: center;
+  border-radius: 8px;
+  transition: box-shadow 0.3s ease;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.special-card:hover {
+  box-shadow: 0 4px 10px rgba(203, 238, 29, 0.858);
+}
+
+.special-image {
+  width: 100%;
+  height: 200px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
